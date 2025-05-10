@@ -81,7 +81,7 @@ Thus the g.c.d. of m and n can be written as a linear combination of m and n, wi
 **Theorem 4.3: Euclid**      
 If $$r,s,t$$ are integers, r divides st, and gcd(r,s) = 1, then r divides t.
 
-**Theorem 4.4: Euclid**      
+**Theorem 4.4: Order Theorem**      
 Let G be a group and $$x \in G$$.
 1. $$ord(x) = ord(x^{-1})$$
 2. If $$ord(x) = n$$ and $$x^m = e$$, then n divides m.
@@ -90,7 +90,7 @@ Let G be a group and $$x \in G$$.
 **Cyclic Group**      
 A group G is cyclic if there is an element $$x \in G$$ such that G = { $$x^n | n \in Z$$ } and x is a generator of G.
 
-**Theorem 4.5: Euclid**     
+**Theorem 4.5: Order Theorem II**     
 Let $$G=<x>$$. If $$ord(x) = \infty$$, then $$x^j \neq x^k$$ for $$j \neq k$$ and consequently G is infinite.         
 If $$ord(x) = n$$, then $$x^j = x^i$$ iff $$j = k (mod n)$$, and consequently the distinct elements of G are $$e, x, x^2, ..., x^{n-1}$$.
 
@@ -139,11 +139,25 @@ Let $$G = <x>$$ be an infinite cyclic group. Then $$(e), (x), (x^2), (x^3), ...$
 **Theorem 6.1: LCM**       
 Let $$G = G_1 \times G_2 \times ... \times G_n$$.      
 (a.) If $$g_i \in G_i$$ for $$1 \leq i \leq n$$, and each $$g_i$$ has finite order, then $$ord((g_1, g_2, ..., g_n))$$ is the least common multiple of $$ord(g_1), ord(g_2), ..., ord(g_n)$$.           
-(b.) If each $$G_i$$ is a cyclic group of finite order, then G is cyclic iff $$|G_i|$$ and $$|G_j|$$ are relatively prime for $$i \neq j$$.      
+(b.) If each $$G_i$$ is a cyclic group of finite order, then G is cyclic iff $$|G_i|$$ and $$|G_j|$$ are relatively prime for $$i \neq j$$.    
 
+**Center of a Group**      
+Z(G) = { z in G | gz = zg for all g in G }
 
+**Centralizer of a Group's Element**    
+Let g be an element of a group G. Z(g) = { z in G | gz = zg }
 
+**Class Theorem: Direct Products and Subgroups**         
+If $$A \subset G$$ and $$B \subset H$$ are subgroups, then A x B is a subgroup of G x H
 
+**Class Theorem: Direct Products and Abelian**       
+Let G be a group, $$G = G_1 x ... x G_n$$ is abelian if and only if each $$G_i$$ is abelian.
+
+**Class Theorem: Direct Products and Cyclic**       
+Let G be a group, $$G = G_1 x ... x G_n$$ implies that each $$G_i$$ is cyclic.
+
+**LCM and GCD**         
+lcm(m,n) = mn / gcd(m,n)
 
 
 
