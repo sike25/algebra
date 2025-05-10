@@ -49,6 +49,18 @@ If $$(G, *)$$ is a group and x, y and z are any elements of G. Then:
 
 But if $$x * y = y * z, x = z$$ is not necessarily true.
 
+**Homework 3, Problem 1**     
+G is abelian iff $$(x * y)^{-1} = x^{-1} * y^{-1}$$.
+
+**Homework 3, Problem 2**     
+Let G be a group and $$x \in G$$. If $$x^2 = e$$, G is abelian.
+
+**Homework 3, Problem 3**     
+G is abelian iff $$(x * y)^2 = x^2 * y^2$$.
+
+**Homework 3, Problem 7**     
+If $$(G, *)$$ is a group and $$a, x \in G$$, then $$(xax^{-1})^n = xa^nx^{-1}$$.
+
 ## 4. POWERS AND CYCLIC GROUPS
 
 **Theorem 4.1: Power Laws**   
