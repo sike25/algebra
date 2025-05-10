@@ -39,10 +39,15 @@ If $$(G, *)$$ is a group and x and y are any element of G, $$(x * y)^{-1} = y^{-
 **Theorem 3.5: Only Inverses Multiply to Identity**        
 If $$(G, *)$$ is a group and x and y are any elements of G. If $$x * y = e$$ or $$y * x = e$$. Then $$y = x^{-1}$$.
 
+**Homework 2, Problem 6: Only the Identity Preserves Elements**        
+If $$(G, *)$$ is a group and $$g \in G$$. If there exists $$x \in G$$ such that $$x * g = x$$, then $$x = e$$.
+
 **Theorem 3.6: Cancellation Laws**        
 If $$(G, *)$$ is a group and x, y and z are any elements of G. Then:     
 1. If $$x * y = x * z$$, then $$y = z$$; and
 2. If $$y * x = z * x$$, then $$y = z$$.
+
+But if $$x * y = y * z, x = z$$ is not necessarily true.
 
 ## 4. POWERS AND CYCLIC GROUPS
 
