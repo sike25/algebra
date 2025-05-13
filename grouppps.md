@@ -112,7 +112,10 @@ Let H be a subset of a group G. Then H is a subgroup of G if and only if:
 (c.) For all $$a \in H, a^{-1} \in H$$.  
 
 **Theorem 5.2: Subgroup of a Cyclic Group**         
-If G is cyclic group, all the subgroups of G are cyclic.
+If G is a cyclic group, all the subgroups of G are cyclic.
+
+**Homework 5, Problem 6: Subgroup of an Abelian Group**         
+If G is an abelian group, all the subgroups of G are abelian.
 
 **Theorem 5.3: Subgroup II**         
 Let G be a group and let H be a finite nonempty subset of G. Then if H is closed under multiplication in G, H is a subgroup of G.
@@ -134,6 +137,14 @@ If $$G = <x>$$ is cyclic of order n and $$d_1, d_2, ..., d_{d(n)}$$ are the posi
 **Theorem 5.7: Subgroups of an Infinite Cyclic Group**   
 Let $$G = <x>$$ be an infinite cyclic group. Then $$(e), (x), (x^2), (x^3), ...$$ are all the distinct subgroups of G.
 
+**Homework 4, Problem 5: Order of a Conjugate**        
+Let G be a group with $$a, b \in G$$. b is a conjugate of a if there exists $$x \in G$$ such that $$b = x a x^{-1}$$.    
+a and b have the same order.
+
+**Homework 4, Problem 6: Order of a Product and its Commutative**        
+Let G be a group with $$a, b \in G$$.   
+Then $$ord(ab) = ord(ba)$$.
+
 ## 6. DIRECT PRODUCTS
 
 **Theorem 6.1: LCM**       
@@ -146,6 +157,8 @@ Z(G) = { z in G | gz = zg for all g in G }
 
 **Centralizer of a Group's Element**    
 Let g be an element of a group G. Z(g) = { z in G | gz = zg }
+
+Z(G) and Z(g) are subgroups of G.
 
 **Class Theorem: Direct Products and Subgroups**         
 If $$A \subset G$$ and $$B \subset H$$ are subgroups, then A x B is a subgroup of G x H
